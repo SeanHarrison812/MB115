@@ -1,69 +1,103 @@
-<!DOCTYPE html>
-<html>
+
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Circular Slides - impress.js</title>
-<style>
-body {
-  background-image: url(//wmh.github.io/circular-slides-generator/static/img/noise.png);
-}
-.step {
-    position: relative;
-    padding: 40px;
-    margin: 0 auto;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing:    border-box;
-    -ms-box-sizing:     border-box;
-    -o-box-sizing:      border-box;
-    box-sizing:         border-box;
-    font-family: 'PT Serif', georgia, serif;
-    font-size: 48px;
-    line-height: 1.5;
-}
-.slide {
-  display: block;
-  width: 800px;
-  height: 600px;
-  padding: 120px 60px;
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, .3);
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
-  color: rgb(102, 102, 102);
-  text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-  font-family: 'Open Sans', Arial, sans-serif;
-}
-.credits, .credits h2 {
-  padding-top: 0;
-}
-</style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Learning to Design is Learning to See by Parhum Khoshbakht</title>
+    
+    <meta name="description" content="Learning to Design is Learning to See by Parhum Khoshbakht" />
+    <meta name="author" content="Parhum Khoshbakht" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
-<body>
-<div id="impress">
-<div class="step slide" data-x="-400" data-y="-300" data-rotate="0" data-scale="1.1156249999999999"><q>The Turning Test</q>
-    <h2>By: Sean Harrison</h2></div>
-<div class="step slide" data-x="875" data-y="-299" data-rotate="999" data-scale="1"><q>Slide 1</q></div>
-<div class="step slide" data-x="631" data-y="449" data-rotate="36" data-scale="1"><q>Slide 2</q></div>
-<div class="step slide" data-x="-6" data-y="912" data-rotate="72" data-scale="1"><q>Slide 3</q></div>
-<div class="step slide" data-x="-793" data-y="912" data-rotate="108" data-scale="1"><q>Slide 4</q></div>
-<div class="step slide" data-x="-1431" data-y="449" data-rotate="144" data-scale="1"><q>Slide 5</q></div>
-<div class="step slide" data-x="-1675" data-y="-300" data-rotate="180" data-scale="1"><q>Slide 6</q></div>
-<div class="step slide" data-x="-1431" data-y="-1049" data-rotate="216" data-scale="1"><q>Slide 7</q></div>
-<div class="step slide" data-x="-793" data-y="-1512" data-rotate="252" data-scale="1"><q>Slide 8</q></div>
-<div class="step slide" data-x="-6" data-y="-1512" data-rotate="288" data-scale="1"><q>Slide 9</q></div>
-<div class="step slide credits" data-x="631" data-y="-1049" data-rotate="324" data-scale="1">
-    <h2>Credits</h2>
-    <ul>
-      <li>
-        <a href="http://bartaz.github.io/impress.js" target="_blank">impress.js</a> - Bartek Szopka
-      </li>
-      <li>
-        <a href="http://wmh.github.io/circular-slides-generator" target="_blank">Circular Slides Generator</a> - Hunter Wu
-      </li>
-    </ul>
-  </div>
-<div class="step" data-x="0" data-y="0" data-scale="6"></div>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
 </div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/impress.js"></script>
+
+<div id="impress">
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="2">
+        <span class="try">Learning to</span>
+        <h1>Design<sup></sup></h1>
+        <span class="footnote">by <a href="http://twitter.com/parhumm">@parhumm</a></span>
+    </div>
+
+    <div id="Learning-to-See" class="step" data-x="2800" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p><b>Learning to Design<br>is<br>Learning to See</b></p>
+    </div>
+
+    <div id="passive-act" class="step" data-x="3500" data-y="2325" data-z="-3000" data-rotate="280" data-scale="1">
+        <p>Our mind is not a <b class="rotating">camera.</b><br>Seeing is not a <b class="rotating">passive act.</b></p>
+    </div>
+
+    <div id="imgABC" class="step" data-x="3600" data-y="1300" data-z="-2500" data-rotate="280" data-scale="0.5" style="width: 300px;">
+        <img src="img/A-B-C.png" alt="A B C">
+    </div>
+
+    <div id="WeDontSeeThings" class="step" data-x="3000" data-y="500" data-z="-2500" data-rotate="260" data-scale="1">
+        <p>“We don’t see things as they are, we see them as we are.”</p>
+        <span class="footnote">~Anaïs Nin</span>
+    </div>
+
+    <div id="img121314" class="step" data-x="3722" data-y="1236" data-z="-2500" data-rotate="280" data-scale="0.5">
+        <img src="img/12-13-14.png" alt="12 13 14">
+        <p style="margin-top: 200px; margin-left: -2px; margin-right: 100px; left: -106px; position: relative;">
+            You need a design eye to design, and a non-designer eye to feel what you designed.
+        </p>
+    </div>
+
+    <div id="ShuHaRi" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="3">
+        <img src="img/shu-ha-ri-2.png" alt="Shu Ha Ri"><br>
+        It is a japanese martial arts concept that describes the stages of learning to mastery.
+    </div>
+
+    <div id="ShuHaRi-Stages" class="step" data-x="3500" data-y="2100" data-rotate="45" data-scale="2">
+        <img src="img/stages.png" alt="Shu Ha Ri Stages" style="max-width:120%;">
+    </div>
+
+    <div id="shu" class="step" data-x="7500" data-y="1500" data-scale="3">
+        <img src="img/shu.png" alt="Shu" style="width: 150px; position: relative; z-index: 2; right: -270px; top: 28px;">
+        <img src="img/r_nin.jpg" alt="" style="position: absolute; left: 0; z-index: 1; width: 480px;">
+        <p style="position: relative; right: -465px; top: -100px;"><b>Follow the Rule</b></p>
+    </div>
+    <div id="shu-3" class="step" data-x="8900" data-y="1920" data-scale="3">
+        <p>The best way to learn to see is copying the masters. That applies to art as well as to any form of design.</p>
+    </div>
+
+    <div id="sample-1" class="step " data-x="7930" data-y="4000" data-scale="3">
+        <img src="img/architecture.jpg" alt="">
+        <img src="img/yachtquest.jpg" alt="" style="top: 0; position: relative; width: 710px;">
+        <img src="img/sketch.jpg" alt="">
+   </div>
+
+    <div id="Attention" class="step " data-x="11000" data-y="3600" data-scale="3">
+        <p style="font-size: 35px;">- Focus on Learning Fundamental.</p>
+        <p style="font-size: 35px; margin-top: 25px;">- Know everything about the tools you’re using</p>
+        <p style="font-size: 35px; margin-top: 25px;">- No time for questioning **why** or **how**, just do what your master says.</p>
+   </div>
+
+    <div id="author" class="step" data-x="8000" data-y="7000" data-scale="10">
+        <b>Thanks!</b><br>
+        <p style="font-size: 35px;">
+            I'm Parhum Khoshbakht<br>
+            <span style="font-size: 25px;"><a href="http://twitter.com/parhumm">@parhumm</a> / <a href="http://be.net/parhum">be.net/parhum</a> / <a href="http://parhum.net">parhum.net</a></span>
+        </p>
+    </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
 </body>
 </html>
